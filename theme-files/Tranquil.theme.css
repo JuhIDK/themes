@@ -35,12 +35,12 @@ Registered: Black Box Theme
 
 /* Apply border-radius to server icons in the sidebar */
 .listItem-3SmS1K {
-  border-radius: 20px; /* Adjust the radius value as needed */
+  border-radius: 20px !important; /* Adjust the radius value as needed */
 }
 
 /* Apply border-radius to user avatars in the sidebar */
 .avatarStack-3Bjmsl {
-  border-radius: 20px; /* Adjust the radius value as needed */
+  border-radius: 20px !important; /* Adjust the radius value as needed */
 }
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
