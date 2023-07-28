@@ -21,15 +21,20 @@ Registered: Black Box Theme
 ===== CUSTOMIZABLE COLORS =====
 */
 :root { 
- --roundness: 15px; /* sets the roundness for avatars */
+ --roundness: 20px; /* sets the roundness for avatars */
  --main-color: #8d2036; /* The main color for your theme */
  --hover-color: #6f182a; /* the secondary color for your theme, mainly used as hover color */
  --home-color: #eee; /* the color of your home icon */
  --shadow: rgba(0,0,0,.4); /* the color of the shadows in your theme */
 
-  /* Apply border-radius to the server list icons (using the provided XPath) */
+  /* Apply border-radius to the server list icons (using the provided XPath) 
  #app-mount div[aria-label="Server List"] div[aria-label="Servers"] div[aria-label="Server Name"] img {
    border-radius: 20px !important; /* Adjust the radius value as needed */
+ }*/
+
+ /* Apply border-radius to server icons within the specified div */
+ div[class^="guilds"][class$="scroller"] img {
+   border-radius: 20px; /* Adjust the radius value as needed */
  }
 }
 
