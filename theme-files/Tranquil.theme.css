@@ -29,7 +29,7 @@ Registered: Black Box Theme
 
   /* Apply border-radius to the server list icons (using the provided XPath) */
  #app-mount div[aria-label="Server List"] div[aria-label="Servers"] div[aria-label="Server Name"] img {
-   border-radius: 20px; /* Adjust the radius value as needed */
+   border-radius: 20px !important; /* Adjust the radius value as needed */
  }
 }
 
