@@ -26,7 +26,17 @@ Registered: Black Box Theme
  --hover-color: #6f182a; /* the secondary color for your theme, mainly used as hover color */
  --home-color: #eee; /* the color of your home icon */
  --shadow: rgba(0,0,0,.4); /* the color of the shadows in your theme */
+
+  /* Apply border-radius to the server list icons */
+ .guilds-wrapper .guilds .guild .guild-icon img {
+   border-radius: 40px; /* Adjust the radius value as needed */
  }
+ 
+ /* If the icons are represented by a background image in a <div> */
+ .guilds-wrapper .guilds .guild .guild-icon div {
+   border-radius: 40px; /* Adjust the radius value as needed */
+ }
+}
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
